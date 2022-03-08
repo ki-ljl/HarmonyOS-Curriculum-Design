@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_content"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:margin="20px"
+        ohos:background_element="#E7E4E7"
+        ohos:orientation="vertical"
+        ohos:padding="10px" >
+
+        <DirectionalLayout
+            ohos:id="$+id:input_layout_name"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:background_element="#ffffff"
+            ohos:layout_alignment="vertical_center"
+            ohos:orientation="horizontal" >
+
+            <Image
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:image_src="$media:user_icons"/>
+
+            <TextField
+                ohos:id="$+id:usersid"
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:left_margin="10px"
+                ohos:background_element="#00000000"
+                ohos:hint="学号/教工号"
+                ohos:padding="5px"
+                ohos:text_size="18fp"/>
+        </DirectionalLayout>
+
+        <Component
+            ohos:width="match_parent"
+            ohos:height="1px"
+            ohos:bottom_margin="5px"
+            ohos:top_margin="5px"
+            ohos:background_element="#eeeeee" />
+
+        <DirectionalLayout
+            ohos:id="$+id:input_layout_psw"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:background_element="#ffffff"
+            ohos:layout_alignment="vertical_center"
+            ohos:orientation="horizontal" >
+
+            <Image
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:image_src="$media:pwd_icon"/>
+
+            <TextField
+                ohos:id="$+id:password"
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:left_margin="10px"
+                ohos:background_element="#"
+                ohos:hint="教务系统密码"
+                ohos:text_input_type="pattern_password"
+                ohos:padding="5px"
+                ohos:text_size="18fp" />
+        </DirectionalLayout>
+
+        <Component
+            ohos:width="match_parent"
+            ohos:height="1px"
+            ohos:bottom_margin="5px"
+            ohos:top_margin="5px"
+            ohos:background_element="#eeeeee" />
+
+        <DirectionalLayout
+            ohos:id="$+id:input_layout_psw1"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:background_element="#ffffff"
+            ohos:layout_alignment="vertical_center"
+            ohos:orientation="horizontal" >
+
+            <Image
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:image_src="$media:pwd_icon"/>
+
+            <TextField
+                ohos:id="$+id:password1"
+                ohos:width="match_parent"
+                ohos:height="match_content"
+                ohos:left_margin="10px"
+                ohos:background_element="#00000000"
+                ohos:hint="内网密码"
+                ohos:text_input_type="pattern_password"
+                ohos:padding="5px"
+                ohos:text_size="18fp" />
+        </DirectionalLayout>
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

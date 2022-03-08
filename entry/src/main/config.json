@@ -1,0 +1,182 @@
+{
+  "app": {
+    "bundleName": "com.example.ncepu",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true,
+        "securityConfig": {
+          "domainSettings": {
+            "cleartextPermitted": true
+          }
+        }
+      }
+    }
+  },
+  "module": {
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+        }
+      ]
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.READ_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.WRITE_USER_STORAGE"
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA"
+      }
+    ],
+    "package": "com.example.ncepu",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.ncepu.Student.StudentMainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable",
+      "car"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "ability.intent.QUERY_WEATHER"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.ncepu.WelcomeAbility",
+        "icon": "$media:icon_edm",
+        "description": "$string:studentmainability_description",
+        "label": "$string:entry_WelcomeAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.StudentMainAbility",
+        "icon": "$media:icon",
+        "description": "$string:studentmainability_description",
+        "label": "$string:entry_StudentMainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.Query.QueryFragment",
+        "icon": "$media:icon",
+        "description": "$string:queryfragment_description",
+        "label": "$string:entry_QueryFragment",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.User.UserFragment",
+        "icon": "$media:icon",
+        "description": "$string:userfragment_description",
+        "label": "$string:entry_UserFragment",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.ncepu.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.Query.GradeAbility",
+        "icon": "$media:icon",
+        "description": "$string:gradeability_description",
+        "label": "$string:entry_GradeAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.User.CSDNAbility",
+        "icon": "$media:icon",
+        "description": "$string:csdnability_description",
+        "label": "$string:entry_CSDNAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.Query.ExamAbility",
+        "icon": "$media:icon",
+        "description": "$string:examability_description",
+        "label": "$string:entry_ExamAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.Query.GPAAbility",
+        "icon": "$media:icon",
+        "description": "$string:gpaability_description",
+        "label": "$string:entry_GPAAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.Query.ScorePdfAbility",
+        "icon": "$media:icon",
+        "description": "$string:scorepdfability_description",
+        "label": "$string:entry_ScorePdfAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.ncepu.Student.User.SignatureAbility",
+        "icon": "$media:icon",
+        "description": "$string:signatureability_description",
+        "label": "$string:entry_SignatureAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

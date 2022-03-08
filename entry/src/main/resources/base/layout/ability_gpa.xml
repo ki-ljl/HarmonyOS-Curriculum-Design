@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:ly_back_gpa"
+        ohos:width="match_parent"
+        ohos:height="40vp"
+        ohos:background_element="#6666FF"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:ib_back_gpa"
+            ohos:width="18vp"
+            ohos:height="21vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:background_element="$media:back_arrow_2" />
+
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        ohos:id="$+id:ly_multiply_gpa"
+        ohos:layout_alignment="vertical_center"
+        ohos:width="match_parent"
+        ohos:height="40vp"
+        ohos:top_margin="8vp"
+        ohos:clickable="false"
+        ohos:background_element="#ccc"
+        ohos:orientation="horizontal">
+
+
+        <Button
+            ohos:id="$+id:school_year_gpa"
+            ohos:width="0vp"
+            ohos:height="38vp"
+            ohos:weight="5"
+            ohos:padding="5vp"
+            ohos:text_color="#808080"
+            ohos:text_size="16fp"
+            ohos:text="学年"
+            ohos:background_element="$graphic:shape_small"
+            ohos:layout_alignment="center"/>
+
+
+        <Button
+            ohos:id="$+id:semester_gpa"
+            ohos:width="0vp"
+            ohos:height="38vp"
+            ohos:weight="5"
+            ohos:padding="5vp"
+            ohos:text_color="#808080"
+            ohos:text_size="16fp"
+            ohos:text="学期"
+            ohos:layout_alignment="center"
+            ohos:background_element="$graphic:shape_small"/>
+
+        <Button
+            ohos:id="$+id:course_gpa"
+            ohos:width="0vp"
+            ohos:height="38vp"
+            ohos:weight="5"
+            ohos:padding="5vp"
+            ohos:text_color="#808080"
+            ohos:text_size="16fp"
+            ohos:text="课程性质"
+            ohos:layout_alignment="center"
+            ohos:background_element="$graphic:shape_small"/>
+
+    </DirectionalLayout>
+
+
+    <Button
+        ohos:id="$+id:btn_query_gpa"
+        ohos:width="match_parent"
+        ohos:height="48vp"
+        ohos:margin="10vp"
+        ohos:text="查 询"
+        ohos:background_element="$graphic:selector"
+        ohos:text_size="18fp"/>
+
+    <RoundProgressBar
+        ohos:id="$+id:r_bar"
+        ohos:top_margin="100vp"
+        ohos:layout_alignment="center"
+        ohos:height="300vp"
+        ohos:progress="80"
+        ohos:progress_color="#1AE61A"
+        ohos:progress_hint_text="GPA"
+        ohos:progress_hint_text_alignment="center"
+        ohos:progress_hint_text_color="#E2D5F7"
+        ohos:progress_width="20vp"
+        ohos:progress_hint_text_size="40fp"
+        ohos:width="300vp">
+
+    </RoundProgressBar>
+
+</DirectionalLayout>

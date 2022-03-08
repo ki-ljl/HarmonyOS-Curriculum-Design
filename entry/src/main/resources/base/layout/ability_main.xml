@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#7adfb8"
+    ohos:orientation="vertical">
+
+    <include
+        ohos:id="$+id:main_title"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:layout="$layout:title_layout" />
+
+    <DirectionalLayout
+        ohos:id="$+id:focus"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+
+        <Image
+            ohos:height="80vp"
+            ohos:width="80vp"
+            ohos:top_margin="50vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:image_src="$media:project_detail_cir">
+        </Image>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:top_margin="10vp"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_alignment="horizontal_center"
+            ohos:text_color="#ffffff"
+            ohos:text_size="24fp"
+            ohos:text="NCEPU-EDM">
+        </Text>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text_alignment="horizontal_center"
+            ohos:text_color="#ffffff"
+            ohos:text_size="16fp"
+            ohos:text="DISCOVER YOURSELF">
+        </Text>
+
+    </DirectionalLayout>
+
+    <DependentLayout
+        ohos:id="$+id:input"
+        ohos:below="$id:focus"
+        ohos:top_margin="100vp"
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:center_in_parent="true">
+
+        <include
+            ohos:id="$+id:input_layout"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:layout="$layout:input_layout">
+        </include>
+
+        <DependentLayout
+            ohos:id="$+id:choose"
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:alignment="horizontal_center"
+            ohos:horizontal_center="true"
+            ohos:below="$id:input_layout">
+
+            <Button
+                ohos:id="$+id:main_btn_login"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:text_size="24fp"
+                ohos:background_element="$graphic:green_circle_button_element"
+                ohos:text="Login"
+                ohos:text_font="serif"
+                ohos:top_margin="50vp"
+                ohos:top_padding="2vp"
+                ohos:bottom_padding="2vp"
+                ohos:left_padding="15vp"
+                ohos:right_padding="15vp"
+                ohos:text_alignment="center"
+                />
+
+        </DependentLayout>
+
+    </DependentLayout>
+
+</DependentLayout>

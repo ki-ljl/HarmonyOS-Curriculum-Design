@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:ly_back"
+        ohos:width="match_parent"
+        ohos:height="40vp"
+        ohos:background_element="#6666FF"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:ib_back"
+            ohos:width="18vp"
+            ohos:height="21vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:background_element="$media:back_arrow_2" />
+
+    </DirectionalLayout>
+
+
+    <DirectionalLayout
+        ohos:id="$+id:ly_multiply"
+        ohos:layout_alignment="vertical_center"
+        ohos:width="match_parent"
+        ohos:height="40vp"
+        ohos:top_margin="8vp"
+        ohos:clickable="false"
+        ohos:background_element="#ccc"
+        ohos:orientation="horizontal">
+
+
+        <Button
+            ohos:id="$+id:school_year"
+            ohos:width="0vp"
+            ohos:height="38vp"
+            ohos:weight="5"
+            ohos:padding="5vp"
+            ohos:text_color="#808080"
+            ohos:text_size="16fp"
+            ohos:text="学年"
+            ohos:background_element="$graphic:shape_small"
+            ohos:layout_alignment="center"/>
+
+
+        <Button
+            ohos:id="$+id:semester"
+            ohos:width="0vp"
+            ohos:height="38vp"
+            ohos:weight="5"
+            ohos:padding="5vp"
+            ohos:text_color="#808080"
+            ohos:text_size="16fp"
+            ohos:text="学期"
+            ohos:layout_alignment="center"
+            ohos:background_element="$graphic:shape_small"/>
+
+
+        <Button
+            ohos:id="$+id:course"
+            ohos:width="0vp"
+            ohos:height="38vp"
+            ohos:weight="5"
+            ohos:padding="5vp"
+            ohos:text_color="#808080"
+            ohos:text_size="16fp"
+            ohos:text="课程性质"
+            ohos:layout_alignment="center"
+            ohos:background_element="$graphic:shape_small"/>
+
+    </DirectionalLayout>
+
+
+    <Button
+        ohos:id="$+id:btn_query"
+        ohos:width="match_parent"
+        ohos:height="48vp"
+        ohos:margin="10vp"
+        ohos:text="查 询"
+        ohos:background_element="$graphic:selector"
+        ohos:text_size="18fp"/>
+
+    <ScrollView
+        ohos:height="15000vp"
+        ohos:width="match_parent"
+        ohos:match_viewport="true"
+        ohos:rebound_effect="true">
+
+        <DirectionalLayout
+            ohos:id="$+id:cj_view"
+            ohos:height="1600vp"
+            ohos:width="match_content"
+            ohos:orientation="vertical"
+            ohos:background_element="#F0F3F6">
+
+        </DirectionalLayout>
+
+    </ScrollView>
+</DirectionalLayout>

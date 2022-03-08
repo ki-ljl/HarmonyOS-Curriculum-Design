@@ -1,0 +1,148 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_MainAbility2",
+      "value": "entry_MainAbility2"
+    },
+    {
+      "name": "mainability2_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability2_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_StudentMainAbility",
+      "value": "entry_StudentMainAbility"
+    },
+    {
+      "name": "studentmainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "studentmainability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_QueryFragment",
+      "value": "entry_QueryFragment"
+    },
+    {
+      "name": "queryfragment_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "queryfragment_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_UserFragment",
+      "value": "entry_UserFragment"
+    },
+    {
+      "name": "userfragment_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "userfragment_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_WelcomeAbility",
+      "value": "ncepu-EDM"
+    },
+    {
+      "name": "welcomeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "welcomeability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_GradeAbility",
+      "value": "entry_GradeAbility"
+    },
+    {
+      "name": "gradeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "gradeability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_CSDNAbility",
+      "value": "entry_CSDNAbility"
+    },
+    {
+      "name": "csdnability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "csdnability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_ExamAbility",
+      "value": "entry_ExamAbility"
+    },
+    {
+      "name": "examability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "examability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_GPAAbility",
+      "value": "entry_GPAAbility"
+    },
+    {
+      "name": "gpaability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "gpaability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_ScorePdfAbility",
+      "value": "entry_ScorePdfAbility"
+    },
+    {
+      "name": "scorepdfability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "scorepdfability_HelloWorld",
+      "value": "你好，世界"
+    },
+    {
+      "name": "entry_SignatureAbility",
+      "value": "entry_SignatureAbility"
+    },
+    {
+      "name": "signatureability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "signatureability_HelloWorld",
+      "value": "你好，世界"
+    }
+  ]
+}

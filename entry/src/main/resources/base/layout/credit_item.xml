@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal">
+
+    <Text
+        ohos:id="$+id:text_total_credit"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:multiple_lines="true"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:layout_alignment="center"
+        ohos:text_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:text="总学分"/>
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_major_credit"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:text_alignment="center"
+        ohos:layout_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:text="必修" />
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_spec_credit"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:text_alignment="center"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:layout_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:text="专选" />
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_practice_credit"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:layout_alignment="center"
+        ohos:text_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:text="实践" />
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_sch_credit"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:text_alignment="center"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:layout_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:text="校选"/>
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_avg"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:text_alignment="center"
+        ohos:weight="1.5"
+        ohos:max_text_lines="10"
+        ohos:layout_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:text="平均学分绩"/>
+
+</DirectionalLayout>

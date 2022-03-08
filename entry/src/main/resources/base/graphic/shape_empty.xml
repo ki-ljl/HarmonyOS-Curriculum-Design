@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:ohos="http://schemas.huawei.com/res/ohos"
+       ohos:shape="rectangle">
+    <!-- 填充的颜色 -->
+    <solid
+        ohos:color="#cccccc"/>
+    <!-- 设置按钮的四个角为弧形 -->
+    <!-- ohos:radius 弧形的半径 -->
+    <corners
+        ohos:radius="100"/>
+
+    <!--     bounds：Button里面的文字与Button边界的间隔 -->
+    <bounds
+        ohos:bottom="3vp"
+        ohos:left="3vp"
+        ohos:right="3vp"
+        ohos:top="3vp" />
+
+</shape>

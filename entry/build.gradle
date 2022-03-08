@@ -1,0 +1,55 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+//For instructions on signature configuration, see https://developer.harmonyos.com/cn/docs/documentation/doc-guides/ide_debug_device-0000001053822404#section1112183053510
+ohos {
+    signingConfigs {
+        release {
+            storeFile file('F:\\HUAWEI\\KeyAndCSR\\myapp.p12')
+            storePassword '0000001FF706535792A6A7525EA5377574A091B893BCA343DE52D5783F6C2F93C6C2CD8654B7229A861D08CB86AF01'
+            keyAlias = 'myapp'
+            keyPassword '0000001F7D7D4F21915BE8147472EA1E395A2F5250BF35CA2F1FFE0C1E1DD0088A6D020874C803BE16061D75B26ECE'
+            signAlg = 'SHA256withECDSA'
+            profile file('F:\\HUAWEI\\DebugAndProfile\\HUAWEI BKL-AL20Debug.p7b')
+            certpath file('F:\\HUAWEI\\DebugAndProfile\\myapp.cer')
+        }
+        debug {
+            storeFile file('F:\\HUAWEI\\DebugAndProfile\\myapp.p12')
+            storePassword '0000001F312AF9CDBB00A28AD9A7AFB5787AD355DA68E633A4C32264DE110202DE4CF1617F056485876F7548C35DC5'
+            keyAlias = 'myapp'
+            keyPassword '0000001F75A95405C7CA38668AED28B602E17C9D8CE9BCC6B401360A9E7EFE4EA49A1392731D7B9DC5744839E43C8E'
+            signAlg = 'SHA256withECDSA'
+            profile file('F:\\HUAWEI\\DebugAndProfile\\HUAWEI BKL-AL20Debug.p7b')
+            certpath file('F:\\HUAWEI\\DebugAndProfile\\myapp.cer')
+        }
+    }
+    compileSdkVersion 6
+    defaultConfig {
+        compatibleSdkVersion 4
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    implementation 'org.jetbrains:annotations:19.0.0'
+    testImplementation 'junit:junit:4.13.1'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.200'
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'com.alibaba:fastjson:1.2.58'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+
+    //画图
+
+
+}
+decc {
+    supportType = ['html', 'xml']
+}

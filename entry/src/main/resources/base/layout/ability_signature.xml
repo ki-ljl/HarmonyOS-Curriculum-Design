@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos" 
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="#FFFFFF">
+
+
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="50vp"
+        ohos:background_element="#6666FF"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:ib_back_sig"
+            ohos:width="18vp"
+            ohos:height="21vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:background_element="$media:back_arrow_2" />
+
+        <Text
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:left_padding="120vp"
+            ohos:layout_alignment="center"
+            ohos:text="个性签名"
+            ohos:text_color="#ffffff"
+            ohos:text_size="20fp">
+
+        </Text>
+
+        <Text
+            ohos:id="$+id:affirm"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:layout_alignment="center"
+            ohos:left_padding="100vp"
+            ohos:text="确认"
+            ohos:clickable="true"
+            ohos:text_color="#ffffff"
+            ohos:text_size="20fp">
+
+        </Text>
+
+    </DirectionalLayout>
+
+    <TextField
+        ohos:id="$+id:editText"
+        ohos:width="match_parent"
+        ohos:height="200vp"
+        ohos:top_padding="10vp"
+        ohos:text_size="20fp"
+        ohos:multiple_lines="true"
+        ohos:text="Hungry And Humble"
+        ohos:hint="请输入您的个性签名："
+        ohos:layout_alignment="top">
+    </TextField>
+
+</DirectionalLayout>

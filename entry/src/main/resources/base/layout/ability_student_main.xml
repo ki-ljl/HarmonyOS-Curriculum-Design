@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <RadioContainer
+        ohos:id="$+id:rg_tab_bar"
+        ohos:width="match_parent"
+        ohos:height="50vp"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="horizontal">
+
+        <RadioButton
+            ohos:id="$+id:rb_query"
+            ohos:width="0vp"
+            ohos:height="match_parent"
+            ohos:weight="1"
+            ohos:marked="true"
+            ohos:layout_alignment="center"
+            ohos:top_padding="3vp"
+            ohos:text="查询"
+            ohos:check_element="#FFFFFF"
+            ohos:text_color="#0B3102"
+            ohos:element_top="$graphic:tab_menu_message"
+            ohos:text_size="16fp"/>
+
+        <RadioButton
+            ohos:id="$+id:rb_user"
+            ohos:width="0vp"
+            ohos:height="match_parent"
+            ohos:weight="1"
+            ohos:layout_alignment="center"
+            ohos:top_padding="3vp"
+            ohos:text="个人中心"
+            ohos:check_element="#FFFFFF"
+            ohos:text_color="#0B3102"
+            ohos:element_top="$graphic:tab_menu_setting"
+            ohos:text_size="16fp"/>
+
+    </RadioContainer>
+
+    <Component
+        ohos:id="$+id:div_tab_bar"
+        ohos:width="match_parent"
+        ohos:height="2vp"
+        ohos:above="$id:rg_tab_bar"
+        ohos:background_element="#E5E5E5"/>
+
+    <PageSlider
+        ohos:id="$+id:vpager"
+        ohos:width="match_parent"
+        ohos:height="match_parent"
+        ohos:above="$id:div_tab_bar"/>
+
+</DependentLayout>

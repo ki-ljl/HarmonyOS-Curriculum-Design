@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="50vp"
+    ohos:alignment="vertical_center"
+    ohos:id="$+id:root_item"
+    ohos:background_element="#FFFFFF">
+
+    <Image
+        ohos:id="$+id:left_icon"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:align_parent_left="true"
+        ohos:center_in_parent="true"
+        ohos:left_margin="15vp"
+        ohos:image_src="$graphic:ic_nick_name"/>
+
+    <Text
+        ohos:id="$+id:left_title"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:center_in_parent="true"
+        ohos:left_margin="5vp"
+        ohos:right_of="$id:left_icon"
+        ohos:text="姓名"
+        ohos:text_size="20fp"
+        ohos:text_color="#636363" />
+
+    <Image
+        ohos:id="$+id:right_arrow"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:align_parent_right="true"
+        ohos:center_in_parent="true"
+        ohos:right_margin="15vp"
+        ohos:background_element="$graphic:ic_right_arrow" />
+
+    <Text
+        ohos:id="$+id:right_desc"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:center_in_parent="true"
+        ohos:left_of="$id:right_arrow"
+        ohos:text="张三"
+        ohos:text_size="20fp"
+        ohos:text_color="#cdcdcd" />
+
+    <Image
+        ohos:id="$+id:bottom_line"
+        ohos:width="match_parent"
+        ohos:height="1vp"
+        ohos:align_parent_bottom="true"
+        ohos:background_element="#efeeee" />
+
+</DependentLayout>

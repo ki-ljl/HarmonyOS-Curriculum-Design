@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:ly_back_pdf"
+        ohos:width="match_parent"
+        ohos:height="40vp"
+        ohos:background_element="#6666FF"
+        ohos:orientation="horizontal">
+
+        <Image
+            ohos:id="$+id:ib_back_pdf"
+            ohos:width="18vp"
+            ohos:height="24vp"
+            ohos:layout_alignment="vertical_center"
+            ohos:background_element="$media:back_arrow_2" />
+        
+    </DirectionalLayout>
+
+    <Text
+        ohos:id="$+id:pdf_info"
+        ohos:width="match_parent"
+        ohos:height="30vp"
+        ohos:text_alignment="center"
+        ohos:text_size="24fp"
+        ohos:text_color="#000000"
+        ohos:text="华北电力大学学业成绩表">
+    </Text>
+
+    <Component
+        ohos:width="match_parent"
+        ohos:height="1.5vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <include
+        ohos:height="match_content"
+        ohos:layout="$layout:credit_item"
+        ohos:width="match_parent">
+    </include>
+
+    <Component
+        ohos:width="match_parent"
+        ohos:height="1.5vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <include
+        ohos:height="match_content"
+        ohos:layout="$layout:pdf_list_item"
+        ohos:width="match_parent">
+    </include>
+
+    <Component
+        ohos:width="match_parent"
+        ohos:height="1.5vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <ListContainer
+        ohos:id="$+id:cj_list"
+        ohos:height="600vp"
+        ohos:width="match_parent">
+
+    </ListContainer>
+
+
+</DirectionalLayout>

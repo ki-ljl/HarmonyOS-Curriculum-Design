@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="#DDDDDD"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:banner_d"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:orientation="vertical">
+        
+        <com.youth.banner.Banner
+            ohos:id="$+id:banner"
+            ohos:height="195vp"
+            ohos:width="match_parent">
+        </com.youth.banner.Banner>
+
+        <DirectionalLayout
+            ohos:id="$+id:info"
+            ohos:height="40vp"
+            ohos:width="match_parent"
+            ohos:top_margin="4vp"
+            ohos:background_element="#F7F7F7"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:text_font="sans-serif"
+                ohos:left_margin="10vp"
+                ohos:text="教务查询"
+                ohos:text_color="#000000"
+                ohos:text_size="26fp">
+            </Text>
+
+        </DirectionalLayout>
+
+        <TableLayout
+            ohos:id="$+id:table1"
+            ohos:height="400vp"
+            ohos:top_margin="4vp"
+            ohos:width="match_parent"
+            ohos:column_count="2"
+            ohos:row_count="2"
+            ohos:alignment_type="align_contents"
+            ohos:padding="10vp"
+            ohos:margin="4vp"
+            ohos:orientation="horizontal"
+            ohos:clickable="true"
+            ohos:background_element="#F7F7F7">
+
+            <DirectionalLayout
+                ohos:left_margin="25vp"
+                ohos:id="$+id:ttt"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:padding="0vp">
+
+                <Image
+                    ohos:id="$+id:iv_grid_1"
+                    ohos:width="120vp"
+                    ohos:height="120vp"
+                    ohos:image_src="$media:query_mark_1"/>
+
+                <Text
+                    ohos:id="$+id:tv_grid_1"
+                    ohos:width="match_content"
+                    ohos:height="20vp"
+                    ohos:top_margin="8vp"
+                    ohos:layout_alignment="center"
+                    ohos:text_size="20fp"
+                    ohos:text="成绩查询"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:left_margin="35vp"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:padding="0vp">
+
+                <Image
+                    ohos:id="$+id:iv_grid_3"
+                    ohos:width="120vp"
+                    ohos:height="120vp"
+                    ohos:image_src="$media:query_exam_1"/>
+
+                <Text
+                    ohos:id="$+id:tv_grid_3"
+                    ohos:width="match_content"
+                    ohos:height="20vp"
+                    ohos:top_margin="8vp"
+                    ohos:layout_alignment="center"
+                    ohos:text_size="20fp"
+                    ohos:text="考试安排"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:top_margin="20vp"
+                ohos:left_margin="25vp"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:padding="0vp">
+
+                <Image
+                    ohos:id="$+id:iv_grid_4"
+                    ohos:width="120vp"
+                    ohos:height="120vp"
+                    ohos:image_src="$media:query_credit_1"/>
+
+                <Text
+                    ohos:id="$+id:tv_grid_4"
+                    ohos:width="match_content"
+                    ohos:height="20vp"
+                    ohos:top_margin="8vp"
+                    ohos:layout_alignment="center"
+                    ohos:text_size="20fp"
+                    ohos:text="GPA"/>
+            </DirectionalLayout>
+
+
+            <DirectionalLayout
+                ohos:left_margin="35vp"
+                ohos:top_margin="20vp"
+                ohos:width="match_content"
+                ohos:height="match_content"
+                ohos:alignment="center"
+                ohos:orientation="vertical"
+                ohos:padding="0vp">
+
+                <Image
+                    ohos:id="$+id:iv_grid_6"
+                    ohos:width="120vp"
+                    ohos:height="120vp"
+                    ohos:image_src="$media:grade_total_1_1"/>
+
+                <Text
+                    ohos:id="$+id:tv_grid_6"
+                    ohos:width="match_content"
+                    ohos:height="20vp"
+                    ohos:top_margin="8vp"
+                    ohos:layout_alignment="center"
+                    ohos:text_size="20fp"
+                    ohos:text="成绩总表"/>
+            </DirectionalLayout>
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_7"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:query_zc"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_7"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="综合测评"/>-->
+<!--            </DirectionalLayout>-->
+
+
+        </TableLayout>
+
+<!--        <DirectionalLayout-->
+<!--            ohos:height="20vp"-->
+<!--            ohos:width="match_parent"-->
+<!--            ohos:top_margin="4vp"-->
+<!--            ohos:background_element="#F7F7F7"-->
+<!--            ohos:orientation="horizontal">-->
+
+<!--            <Text-->
+<!--                ohos:height="match_parent"-->
+<!--                ohos:width="match_parent"-->
+<!--                ohos:left_margin="10vp"-->
+<!--                ohos:text="数据可视化"-->
+<!--                ohos:text_color="#000000"-->
+<!--                ohos:text_size="16fp">-->
+<!--            </Text>-->
+
+<!--        </DirectionalLayout>-->
+
+<!--        <TableLayout-->
+<!--            ohos:height="200vp"-->
+<!--            ohos:top_margin="4vp"-->
+<!--            ohos:width="match_parent"-->
+<!--            ohos:orientation="horizontal"-->
+<!--            ohos:padding="8vp"-->
+<!--            ohos:column_count="4"-->
+<!--            ohos:row_count="2"-->
+<!--            ohos:background_element="#F7F7F7">-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_8"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:grade_rate"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_8"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="成绩占比"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_9"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:grade_pk"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_9"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="成绩比较"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_10"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:grade_tend"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_10"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="GPA走势"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_11"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:single_major_2"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_11"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="单科分析"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_12"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:major_sort"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_12"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="专业排名"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_13"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:grade_loss"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_13"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="挂科分析"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_14"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:query_single_sort"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_14"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="单科排名"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--            <DirectionalLayout-->
+<!--                ohos:width="match_content"-->
+<!--                ohos:height="match_content"-->
+<!--                ohos:alignment="center"-->
+<!--                ohos:orientation="vertical"-->
+<!--                ohos:padding="0vp">-->
+
+<!--                <Image-->
+<!--                    ohos:id="$+id:iv_grid_15"-->
+<!--                    ohos:width="85vp"-->
+<!--                    ohos:height="68vp"-->
+<!--                    ohos:image_src="$media:radar"/>-->
+
+<!--                <Text-->
+<!--                    ohos:id="$+id:tv_grid_15"-->
+<!--                    ohos:width="match_content"-->
+<!--                    ohos:height="20vp"-->
+<!--                    ohos:top_margin="3vp"-->
+<!--                    ohos:layout_alignment="center"-->
+<!--                    ohos:text_size="14fp"-->
+<!--                    ohos:text="个人分析"/>-->
+<!--            </DirectionalLayout>-->
+
+<!--        </TableLayout>-->
+
+    </DirectionalLayout>
+
+</DirectionalLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+    <Text
+        ohos:id="$+id:text_course_name"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:weight="4"
+        ohos:max_text_lines="10"
+        ohos:text_alignment="center"
+        ohos:layout_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:text="课程名称"/>
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_course_nature"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:weight="1.5"
+        ohos:max_text_lines="10"
+        ohos:bottom_padding="10vp"
+        ohos:text_alignment="center"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:layout_alignment="center"
+        ohos:text="课程性质" />
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_year_semester"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:weight="2.5"
+        ohos:max_text_lines="10"
+        ohos:bottom_padding="10vp"
+        ohos:text_alignment="center"
+        ohos:text_color="#000000"
+        ohos:top_padding="10vp"
+        ohos:text_size="15fp"
+        ohos:layout_alignment="center"
+        ohos:text="学年/学期" />
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_credit"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:text_alignment="center"
+        ohos:bottom_padding="10vp"
+        ohos:top_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:text_size="15fp"
+        ohos:layout_alignment="center"
+        ohos:text="学分" />
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_grade"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:bottom_padding="10vp"
+        ohos:text_alignment="center"
+        ohos:text_color="#000000"
+        ohos:top_padding="10vp"
+        ohos:text_size="15fp"
+        ohos:layout_alignment="center"
+        ohos:text="成绩"/>
+
+    <Component
+        ohos:width="1.5vp"
+        ohos:height="70vp"
+        ohos:background_element="#B4B3B3"/>
+
+    <Text
+        ohos:id="$+id:text_gpa"
+        ohos:multiple_lines="true"
+        ohos:width="0vp"
+        ohos:height="match_content"
+        ohos:text_alignment="center"
+        ohos:weight="1"
+        ohos:max_text_lines="10"
+        ohos:bottom_padding="10vp"
+        ohos:text_color="#000000"
+        ohos:top_padding="10vp"
+        ohos:text_size="15fp"
+        ohos:layout_alignment="center"
+        ohos:text="绩点"/>
+
+    </DirectionalLayout>
+
+    <Component
+        ohos:width="match_parent"
+        ohos:height="1.5vp"
+        ohos:background_element="#B4B3B3"/>
+
+</DirectionalLayout>

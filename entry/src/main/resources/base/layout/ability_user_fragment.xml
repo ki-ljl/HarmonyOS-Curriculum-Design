@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:background_element="#C9C969"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:width="match_parent"
+        ohos:height="match_content">
+
+        <Image
+            ohos:id="$+id:h_back"
+            ohos:width="match_parent"
+            ohos:height="200vp"/>
+
+        <Image
+            ohos:id="$+id:h_head"
+            ohos:width="100vp"
+            ohos:height="100vp"
+            ohos:center_in_parent="true"
+            ohos:image_src="$media:ic_irving"
+            ohos:scale_mode="clip_center"/>
+
+        <DependentLayout
+            ohos:width="match_parent"
+            ohos:height="match_content"
+            ohos:align_bottom="$id:h_back"
+            ohos:bottom_margin="20vp"
+            ohos:orientation="horizontal">
+
+            <Image
+                ohos:id="$+id:user_line"
+                ohos:width="1vp"
+                ohos:height="25vp"
+                ohos:horizontal_center="true"
+                ohos:left_margin="15vp"
+                ohos:background_element="#FFFFFF" />
+
+            <Text
+                ohos:id="$+id:user_class"
+                ohos:width="match_content"
+                ohos:height="23vp"
+                ohos:left_of="$id:user_line"
+                ohos:text="计算1801"
+                ohos:text_color="#FFFFFF"
+                ohos:text_size="17fp" />
+
+            <Text
+                ohos:id="$+id:user_name"
+                ohos:width="match_content"
+                ohos:height="23vp"
+                ohos:left_margin="15vp"
+                ohos:right_of="$id:user_line"
+                ohos:text="李俊良"
+                ohos:text_color="#FFFFFF"
+                ohos:text_size="17fp" />
+        </DependentLayout>
+
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:dept"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_1"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_dept" />
+
+        <Text
+            ohos:id="$+id:left_title_1"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_1"
+            ohos:text="学院"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_1"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow"
+            ohos:visibility="invisible"/>
+
+        <Text
+            ohos:id="$+id:right_desc_1"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_1"
+            ohos:text="控制与计算机工程学院"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_1"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee"/>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:major"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_2"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_major" />
+
+        <Text
+            ohos:id="$+id:left_title_2"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_2"
+            ohos:text="专业"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_2"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow"
+            ohos:visibility="invisible"/>
+
+        <Text
+            ohos:id="$+id:right_desc_2"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_2"
+            ohos:text="计算机科学与技术"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_2"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:year"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_3"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_year" />
+
+        <Text
+            ohos:id="$+id:left_title_3"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_3"
+            ohos:text="入学年份"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_3"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow"
+            ohos:visibility="invisible"/>
+
+        <Text
+            ohos:id="$+id:right_desc_3"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_3"
+            ohos:text="2018"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_3"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:id"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_4"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_id" />
+
+        <Text
+            ohos:id="$+id:left_title_4"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_4"
+            ohos:text="学号"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_4"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow"
+            ohos:visibility="invisible"/>
+
+        <Text
+            ohos:id="$+id:right_desc_4"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_4"
+            ohos:text="120181080119"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_4"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:sex"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_5"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_sex" />
+
+        <Text
+            ohos:id="$+id:left_title_5"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_5"
+            ohos:text="性别"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_5"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow"
+            ohos:visibility="invisible"/>
+
+        <Text
+            ohos:id="$+id:right_desc_5"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_5"
+            ohos:text="男"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_5"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:motto"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_6"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_sign_name" />
+
+        <Text
+            ohos:id="$+id:left_title_6"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_6"
+            ohos:text="个性签名"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_6"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow" />
+
+        <Text
+            ohos:id="$+id:right_desc_6"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_6"
+            ohos:text="Hungry And Humble"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_6"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:csdn"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_7"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_csdn" />
+
+        <Text
+            ohos:id="$+id:left_title_7"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_7"
+            ohos:text="作者博客"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_7"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow" />
+
+        <Text
+            ohos:id="$+id:right_desc_7"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_7"
+            ohos:text="联系作者"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_7"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:logout"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_8"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_logout" />
+
+        <Text
+            ohos:id="$+id:left_title_8"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_8"
+            ohos:text="退出登录"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_8"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow" />
+
+        <Text
+            ohos:id="$+id:right_desc_8"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_8"
+            ohos:text=""
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_8"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:ver"
+        ohos:height="50vp"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:background_element="#ffffff">
+
+        <Image
+            ohos:id="$+id:left_icon_9"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:left_margin="15vp"
+            ohos:image_src="$graphic:ic_about" />
+
+        <Text
+            ohos:id="$+id:left_title_9"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:left_icon_9"
+            ohos:text="检查更新"
+            ohos:text_size="16fp"
+            ohos:text_color="#636363" />
+
+        <Image
+            ohos:id="$+id:right_arrow_9"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:align_parent_right="true"
+            ohos:center_in_parent="true"
+            ohos:right_margin="10vp"
+            ohos:image_src="$graphic:ic_right_arrow" />
+
+        <Text
+            ohos:id="$+id:right_desc_9"
+            ohos:width="match_content"
+            ohos:height="match_content"
+            ohos:center_in_parent="true"
+            ohos:left_of="$id:right_arrow_9"
+            ohos:text="V1.0"
+            ohos:text_size="16fp"
+            ohos:text_color="#000000" />
+
+        <Image
+            ohos:id="$+id:bottom_line_9"
+            ohos:width="match_parent"
+            ohos:height="1vp"
+            ohos:align_parent_bottom="true"
+            ohos:background_element="#efeeee" />
+    </DependentLayout>
+
+    </DirectionalLayout>
