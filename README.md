@@ -1,3 +1,4 @@
+![](https://img.shields.io/badge/HarmonyOS-JSoup-orange)
 # HarmonyOS-Curriculum-Design
 鸿蒙开发课程设计：基于JSoup的鸿蒙教务查询软件。
 
